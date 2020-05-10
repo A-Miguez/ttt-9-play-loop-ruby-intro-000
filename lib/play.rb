@@ -43,6 +43,7 @@ def play(board)
     until turns == 9
       turns +=1
       turn(board)
+      break
     end
   end
 end
