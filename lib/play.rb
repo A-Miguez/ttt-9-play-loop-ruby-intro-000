@@ -40,8 +40,8 @@ end
 def play(board)
   turns = 0
   loop do
-    turns +=1
     until turns == 9
+      turns +=1
       turn(board)
     end
   end
