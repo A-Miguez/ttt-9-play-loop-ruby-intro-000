@@ -40,8 +40,8 @@ end
 def play(board)
   rounds = 0
   loop do
-    turn(board)
     rounds += 1
+    turn(board)
     if rounds == 9
       break
     end
